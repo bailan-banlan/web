@@ -28,6 +28,36 @@
     background-image: url(../img/s.png);
 }
 
+/*按钮样式*/
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+.btn:focus,
+.btn:hover {
+    outline: none;
+}
+
+
+/* Primary Button */
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #0062cc;
+}
+
 /*子页banner*/
 .advert{
 	width: 100%;
